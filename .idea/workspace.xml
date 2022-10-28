@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f415956-eb70-4870-b045-55a54d25265c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HUANGU3T2Lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BillTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CatHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CatHouseRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReturnError.java" afterDir="false" />
-    </list>
+    <list default="true" id="9f415956-eb70-4870-b045-55a54d25265c" name="Changes" comment="U3T2 Lab" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +76,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666959265705</updated>
     </task>
+    <task id="LOCAL-00001" summary="U3T2 Lab">
+      <created>1666963675907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666963675907</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,5 +96,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="U3T2 Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="U3T2 Lab" />
   </component>
 </project>
