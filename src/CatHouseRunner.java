@@ -4,9 +4,10 @@ public class CatHouseRunner {
         Cat cat2 = new Cat("Eleanor", 8);
         // TASK 1: write your code here!
 
-        CatHouse House = new CatHouse(cat1, cat2, "Jian" );
+        CatHouse House = new CatHouse(cat1, cat2, "Jian" , 3,8);
         System.out.println(House.houseInfo());
         House.rollCall();
+        House.catNoise();
 
 
 

@@ -3,7 +3,11 @@ public class CatHouse {
     private Cat cat2;
     private String owner;
 
-    public CatHouse(Cat cat1, Cat cat2, String owner) {
+    private int cat1Age;
+
+    private int cat2Age;
+
+    public CatHouse(Cat cat1, Cat cat2, String owner, int cat1Age, int cat2Age) {
         this.cat1 = cat1;
         this.cat2 = cat2;
         this.owner = owner;
@@ -22,17 +26,28 @@ public class CatHouse {
             cat2.introduce();
             cat1.introduce();
         } else if (cat2.getAge() == cat1.getAge()) {
+                if (cat2.getName().compareTo(cat1.getName()) > 1) {
+                    cat2.introduce();
+                    cat1.introduce();
+
+                }else if (cat1.getName().compareTo(cat2.getName()) > 1)
             {
-                if ((cat1.getName()).compareTo(cat2.getName()) = 0) {
+                cat1.introduce();
+                cat2.introduce();
+            }
+
+
+
                 }
 
             }
-        }
+
     // IMPLEMENT this method!
     // this method causes each cat to speak by printing
     // each Cat's returned "speak()" string to the console
     public void catNoise() {
-        /* implement me! */
+        System.out.println(cat1.speak());
+        System.out.println(cat2.speak());
     }
 
     // MODIFY this so that it returns a string with each Cat's AGE next to its name
